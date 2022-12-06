@@ -1,5 +1,5 @@
-```
 ## Installation
+
 ```
 $ python -m pip install Django
 ```
@@ -13,7 +13,7 @@ Open a new terminal
 ```
 $ ./zenoh-bridge-dds -m peer
 ```
-OPen a new terminal
+Open a new terminal
 ```
 $ cd agrorob_server
 $ python manage.py runserver 
