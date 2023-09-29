@@ -1,6 +1,10 @@
 ## Installation
 
 ```
+$ pip install pycdr
+
+$ pip install eclipse-zenoh
+
 $ python -m pip install Django
 ```
 ## Running the application
