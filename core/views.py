@@ -85,7 +85,8 @@ def rosout_callback(sample):
 
 
 # sub = session.declare_subscriber('/rt/rosout', rosout_callback)
-sub = session.declare_subscriber('rt/ublox_gps_node/fix', fix_callback)
+# sub = session.declare_subscriber('rt/ublox_gps_node/fix', fix_callback)
+sub = session.declare_subscriber('rt/ublox_rover/fix', fix_callback)
 # Create your views here.
 def index(request):
     context = { }

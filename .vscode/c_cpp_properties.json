@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/iman/pit/icos_ws/install/ublox_gps/include/**",
+        "/home/iman/pit/icos_ws/install/ublox_msgs/include/**",
+        "/home/iman/pit/icos_ws/install/ublox_serialization/include/**",
+        "/home/iman/pit/icos_ws/install/ros2_socketcan/include/**",
+        "/home/iman/pit/icos_ws/install/ros2_socketcan_msgs/include/**",
+        "/home/iman/pit/icos_ws/install/gps_tools/include/**",
+        "/home/iman/pit/icos_ws/install/gps_msgs/include/**",
+        "/home/iman/pit/icos_ws/install/dc_demos/include/**",
+        "/home/iman/pit/icos_ws/install/dc_destinations/include/**",
+        "/home/iman/pit/icos_ws/install/fluent_bit_plugins/include/**",
+        "/home/iman/pit/icos_ws/install/fluent_bit_vendor/include/**",
+        "/home/iman/pit/icos_ws/install/dc_measurements/include/**",
+        "/home/iman/pit/icos_ws/install/dc_util/include/**",
+        "/home/iman/pit/icos_ws/install/dc_lifecycle_manager/include/**",
+        "/home/iman/pit/icos_ws/install/dc_interfaces/include/**",
+        "/home/iman/pit/icos_ws/install/dc_core/include/**",
+        "/home/iman/pit/icos_ws/install/agrorob_driver/include/**",
+        "/home/iman/pit/icos_ws/install/agrorob_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/agrorob_gps/gps_umd/gps_tools/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/agrorob_gps/ublox-gps/ublox_gps/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/agrorob_gps/ublox-gps/ublox_msgs/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/agrorob_gps/ublox-gps/ublox_serialization/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/agrorob_interfaces/include/**",
+        "/home/iman/pit/icos_ws/src/agrorob_packages/ros2_socketcan/ros2_socketcan/include/**",
+        "/home/iman/pit/icos_ws/src/panel_packages/agrorob_visualization/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_core/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_demos/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_destinations/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_lifecycle_manager/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_measurements/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/dc_util/include/**",
+        "/home/iman/pit/icos_ws/src/ros2_data_collection/fluent_bit_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

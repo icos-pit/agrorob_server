@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/iman/pit/icos_ws/install/ublox_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/ntrip_client/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/gps_tools/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/gps_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_demos/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_cli/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_simulation/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_services/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_group/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_interfaces/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/agrorob_panel_launch/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/agrorob_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/iman/pit/icos_ws/install/ublox_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/ntrip_client/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/gps_tools/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/gps_msgs/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_demos/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_cli/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_simulation/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/dc_services/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_group/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/dc_interfaces/local/lib/python3.10/dist-packages",
+        "/home/iman/pit/icos_ws/install/agrorob_panel_launch/lib/python3.10/site-packages",
+        "/home/iman/pit/icos_ws/install/agrorob_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
