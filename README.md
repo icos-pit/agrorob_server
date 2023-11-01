@@ -1,3 +1,5 @@
+## Description
+![Screenshot from 2023-11-01 17:53:53](system.png)
 ## Installation
 
 ```
@@ -24,3 +26,5 @@ Open a new terminal
 $ cd agrorob_server
 $ python manage.py runserver 
 ```
+## Expected result
+![Screenshot from 2023-11-01 17:53:53](map.png)
