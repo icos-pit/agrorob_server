@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from core.views import index
 from core.views import getgpsfix
+from core.views import getrobotstatus
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", index, name="index"),
     path("getgpsfix/", getgpsfix, name="getgpsfix"),
+    path("getrobotstatus/", getrobotstatus, name="getrobotstatus")
 ]

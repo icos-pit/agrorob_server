@@ -50,7 +50,7 @@ function LocationMarker() {
   return (position === null) || (i <= 2) ? null : 
     (<>
       <Marker position={position} icon={DefaultIcon}>
-        <Popup>You are here</Popup>
+        <Popup>Agrorob is here!</Popup>
       </Marker>
       <Polyline pathOptions={limeOptions} positions={polyline} />
     </>)
