@@ -36,7 +36,7 @@ function LocationMarker() {
       (result) => {
         // console.log(result.lat)
         // console.log(result.lng)
-        setPosition([result.lat, result.lng])
+        setPosition([result.lat, result.lng])  //result.yaw
         i = i + 1;
         setPolyline(prevPolyline => [...prevPolyline, [result.lat, result.lng]])
       },
@@ -50,7 +50,7 @@ function LocationMarker() {
   return (position === null) || (i <= 2) ? null : 
     (<>
       <Marker position={position} icon={DefaultIcon}>
-        <Popup>Agrorob is here!</Popup>
+        <Popup>Agrorob2 is here!</Popup>
       </Marker>
       <Polyline pathOptions={limeOptions} positions={polyline} />
     </>)
