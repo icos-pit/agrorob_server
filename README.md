@@ -21,6 +21,9 @@ Open a new terminal
 ```
 $ zenoh-bridge-dds -m peer
 ```
+```
+$ zenoh-bridge-dds -m client -e tcp/ip:port
+```
 Open a new terminal
 ```
 $ cd agrorob_server

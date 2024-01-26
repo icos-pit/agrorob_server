@@ -7,6 +7,7 @@ from pycdr import cdr
 from pycdr.types import int8, int16, float32, int32, uint32, float64, int64
 import time
 import math 
+import os
 
 lat = 51.9294
 lng = 19.1151
@@ -95,7 +96,9 @@ class MAG_Log:
 
 
 # Initiate the zenoh-net API
-session = zenoh.open({})
+# session = zenoh.open({"mode":"client","connect":{"endpoints": ["tcp/150.254.225.124:8447"]}})
+session = zenoh.open({"mode":"client","connect":{"endpoints": [os.environ["ZENOH_URL"]]}})
+# session = zenoh.open({})
 
 
 
