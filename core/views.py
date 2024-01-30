@@ -96,9 +96,9 @@ class MAG_Log:
 
 
 # Initiate the zenoh-net API
-session = zenoh.open({"mode":"client","connect":{"endpoints": ["tcp/57.129.16.234:7447"]}})
+# session = zenoh.open({"mode":"client","connect":{"endpoints": ["tcp/57.129.16.234:7447"]}})
 # session = zenoh.open({"mode":"client","connect":{"endpoints": [os.environ["ZENOH_URL"]]}})
-# session = zenoh.open({})
+session = zenoh.open({})
 
 
 
