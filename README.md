@@ -1,5 +1,17 @@
 ## Description
 ![Screenshot from 2023-11-01 17:53:53](system.png)
+## Branches description
+### master 
+Zenoh config from environment variable and client mode 
+```
+session = zenoh.open({"mode":"client","connect":{"endpoints": [os.environ["ZENOH_URL"]]}})
+```
+### dev 
+Zenoh local config and peer mode
+
+```
+session = zenoh.open({})
+```
 ## Installation
 
 ```
@@ -9,7 +21,7 @@ $ pip install eclipse-zenoh
 
 $ python -m pip install Django
 
-$ sudo apt install zenoh-bridge-dds
+$ sudo apt install [zenoh-bridge-dds](https://github.com/eclipse-zenoh/zenoh-plugin-dds?tab=readme-ov-file#linux-debian)
 ```
 ## Running the application
 Open a new terminal
